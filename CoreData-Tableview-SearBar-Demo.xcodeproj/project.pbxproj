@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		04936D281F076FE50071773B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04936D271F076FE50071773B /* AppDelegate.swift */; };
-		04936D2A1F076FE50071773B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04936D291F076FE50071773B /* ViewController.swift */; };
 		04936D2D1F076FE50071773B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04936D2B1F076FE50071773B /* Main.storyboard */; };
 		04936D301F076FE50071773B /* CoreData_Tableview_SearBar_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04936D2E1F076FE50071773B /* CoreData_Tableview_SearBar_Demo.xcdatamodeld */; };
 		04936D321F076FE50071773B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04936D311F076FE50071773B /* Assets.xcassets */; };
 		04936D351F076FE50071773B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04936D331F076FE50071773B /* LaunchScreen.storyboard */; };
+		04936D3D1F07716A0071773B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04936D3C1F07716A0071773B /* TableViewController.swift */; };
+		04936D3F1F07722C0071773B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04936D3E1F07722C0071773B /* TableViewCell.swift */; };
+		04936D411F0773C00071773B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04936D401F0773C00071773B /* CoreDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04936D241F076FE50071773B /* CoreData-Tableview-SearBar-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-Tableview-SearBar-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04936D271F076FE50071773B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04936D291F076FE50071773B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04936D2C1F076FE50071773B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04936D2F1F076FE50071773B /* CoreData_Tableview_SearBar_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData_Tableview_SearBar_Demo.xcdatamodel; sourceTree = "<group>"; };
 		04936D311F076FE50071773B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04936D341F076FE50071773B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04936D361F076FE50071773B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04936D3C1F07716A0071773B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../TableViewController.swift; sourceTree = "<group>"; };
+		04936D3E1F07722C0071773B /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04936D401F0773C00071773B /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				04936D271F076FE50071773B /* AppDelegate.swift */,
-				04936D291F076FE50071773B /* ViewController.swift */,
 				04936D2B1F076FE50071773B /* Main.storyboard */,
+				04936D401F0773C00071773B /* CoreDataManager.swift */,
+				04936D3E1F07722C0071773B /* TableViewCell.swift */,
+				04936D3C1F07716A0071773B /* TableViewController.swift */,
 				04936D311F076FE50071773B /* Assets.xcassets */,
 				04936D331F076FE50071773B /* LaunchScreen.storyboard */,
 				04936D361F076FE50071773B /* Info.plist */,
@@ -139,8 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04936D2A1F076FE50071773B /* ViewController.swift in Sources */,
 				04936D281F076FE50071773B /* AppDelegate.swift in Sources */,
+				04936D3F1F07722C0071773B /* TableViewCell.swift in Sources */,
+				04936D3D1F07716A0071773B /* TableViewController.swift in Sources */,
+				04936D411F0773C00071773B /* CoreDataManager.swift in Sources */,
 				04936D301F076FE50071773B /* CoreData_Tableview_SearBar_Demo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
